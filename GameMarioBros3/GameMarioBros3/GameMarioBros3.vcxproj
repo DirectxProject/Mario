@@ -111,7 +111,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CZGameTime.cpp" />
+    <ClCompile Include="Example.cpp" />
     <ClCompile Include="CZMain.cpp" />
+    <ClCompile Include="CZStateManagement.cpp" />
+    <ClCompile Include="CZWindow.cpp" />
+    <ClCompile Include="CZGame.cpp" />
+    <ClCompile Include="StateExample.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CZGameTime.h" />
+    <ClInclude Include="Example.h" />
+    <ClInclude Include="CZMacro.h" />
+    <ClInclude Include="CZMain.h" />
+    <ClInclude Include="CZState.h" />
+    <ClInclude Include="CZStateManagement.h" />
+    <ClInclude Include="CZUtility.h" />
+    <ClInclude Include="CZWindow.h" />
+    <ClInclude Include="CZGame.h" />
+    <ClInclude Include="StateExample.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
